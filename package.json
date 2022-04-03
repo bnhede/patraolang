@@ -1,5 +1,5 @@
 {
-  "name": "gurulang",
+  "name": "patraolang",
   "version": "0.0.1",
   "private": true,
   "workspaces": [
@@ -21,7 +21,7 @@
     "typescript": "^4.5.4"
   },
   "keywords": [
-    "gurulang",
+    "patraolang",
     "programming language",
     "compiler",
     "parser",
