@@ -19,7 +19,7 @@ export const TokenTypes = {
 
   SAAK_BIDU_GURU_TYPE: "puro jalen patrao",
 
-  MUNDHE_NODU_GURU_TYPE: "parat ghuva patrao",
+  MUNDHE_NODU_GURU_TYPE: "parat ghuvya patrao",
 
   NALLA_TYPE: "goddo",
 
@@ -79,24 +79,24 @@ export const SPEC = [
   { regex: /^,/, tokenType: TokenTypes.COMMA_TYPE },
 
   //Keywords
-  { regex: /^\bnamskara guru\b/, tokenType: TokenTypes.HI_GURU_TYPE },
-  { regex: /^\baythu guru\b/, tokenType: TokenTypes.AYTHU_GURU_TYPE },
-  { regex: /^\bhelu guru\b/, tokenType: TokenTypes.HELU_GURU_TYPE },
-  { regex: /^\bnodu guru\b/, tokenType: TokenTypes.NODU_GURU_TYPE },
-  { regex: /^\bguru eega\b/, tokenType: TokenTypes.GURU_EEGA_TYPE },
-  { regex: /^\baadre\b/, tokenType: TokenTypes.AADRE_TYPE },
-  { regex: /^\billandre guru\b/, tokenType: TokenTypes.ILLANDRE_GURU_TYPE },
-  { regex: /^\bnalla\b/, tokenType: TokenTypes.NALLA_TYPE },
-  { regex: /^\bguru ellivargu\b/, tokenType: TokenTypes.GURU_ELLIVARGU_TYPE },
-  { regex: /^\bsaak bidu guru\b/, tokenType: TokenTypes.SAAK_BIDU_GURU_TYPE },
-  { regex: /^\bmundhe nodu guru\b/, tokenType: TokenTypes.MUNDHE_NODU_GURU_TYPE },
+  { regex: /^\bAe patrao\b/, tokenType: TokenTypes.HI_GURU_TYPE },
+  { regex: /^\bBorem patrao\b/, tokenType: TokenTypes.AYTHU_GURU_TYPE },
+  { regex: /^\bsang patrao\b/, tokenType: TokenTypes.HELU_GURU_TYPE },
+  { regex: /^\bchoy patrao\b/, tokenType: TokenTypes.NODU_GURU_TYPE },
+  { regex: /^\bpatrao jenna\b/, tokenType: TokenTypes.GURU_EEGA_TYPE },
+  { regex: /^\btenna\b/, tokenType: TokenTypes.AADRE_TYPE },
+  { regex: /^\bnajalear patrao\b/, tokenType: TokenTypes.ILLANDRE_GURU_TYPE },
+  { regex: /^\bgoddo\b/, tokenType: TokenTypes.NALLA_TYPE },
+  { regex: /^\bpatrao jomeren\b/, tokenType: TokenTypes.GURU_ELLIVARGU_TYPE },
+  { regex: /^\bpuro jalen patrao\b/, tokenType: TokenTypes.SAAK_BIDU_GURU_TYPE },
+  { regex: /^\bparat ghuvya patrao\b/, tokenType: TokenTypes.MUNDHE_NODU_GURU_TYPE },
 
   // Number
   { regex: /^-?\d+/, tokenType: TokenTypes.NUMBER_TYPE },
 
   // Boolean
-  { regex: /^nija/, tokenType: TokenTypes.BOOLEAN_TYPE },
-  { regex: /^sullu/, tokenType: TokenTypes.BOOLEAN_TYPE },
+  { regex: /^khoren/, tokenType: TokenTypes.BOOLEAN_TYPE },
+  { regex: /^fott/, tokenType: TokenTypes.BOOLEAN_TYPE },
 
   // Identifier
   { regex: /^\w+/, tokenType: TokenTypes.IDENTIFIER_TYPE },
