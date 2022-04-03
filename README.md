@@ -1,147 +1,145 @@
-<h1 align="center">Guru Lang</h1>
+<h1 align="center">Patrao Lang</h1>
 <p align="center">
 <a href="https://www.npmjs.com/package/gurulang"><img alt="Build" src="https://img.shields.io/badge/npm-gurulang-orange"/></a>
 
 </p>
 <p align="center">
-  <b>Guru lang is a fun programming language forked from BhaiLang :)</b>
+  <b>Patrao lang is a fun programming language forked from BhaiLang :)</b>
 </p>
 <p align="center">
-Do checkout the online <a href="https://sheshavpd.github.io/gurulang/">Guru Lang PlayGround</a>.
+Do checkout the online <a href="https://bnhede.github.io/patraolang/">Patrao Lang PlayGround</a>.
 </p>
 <br>
 
 <h2 align="center">Installation</h2>
 
 ```
-npm i -g gurulang
+npm i -g patraolang
 ```
 
 <h2 align="center">Usage</h2>
 
-<h4 align="left">Create a new file (<code>test.guru</code>)</h4>
+<h4 align="left">Create a new file (<code>test.patrao</code>)</h4>
 
 
 <h4 align="left">Edit the file with a text editor.
 
 ```
-namskara guru
-  helu guru "Hello Guru";
-aythu guru
+Ae patrao
+  Sang patrao "Hello Patrao";
+Boren patrao
 
 ```
 
 <h4 align="left">Run</h4>
 
 ```
-gurulang test.guru
+patraolang test.patrao
 ```
 
 <h4 align="left">Output</h4>
 
 ```
-Hello Guru
+Hello Patrao
 ```
 
 <h2 align="center">Documentation</h2>
 
 <h3 align="center">General</h3>
-<p align="center"><code>namskara guru</code> is the entrypoint for the program and all program must end with <code>aythu guru</code>. Anything outside of it will be ignored.</p>
+<p align="center"><code>Ae patrao</code> is the entrypoint for the program and all program must end with <code>Boren patrao</code>. Anything outside of it will be ignored.</p>
 
 ```
 
 This will be ignored
 
-namskara guru
+Ae patrao
 // Write code here
-aythu guru
+Boren patrao
 
 This too
 ```
 
 <h3 align="center">Variables</h3>
-<p align="center">Variables can be declared using <code>nodu guru</code>.</p>
+<p align="center">Variables can be declared using <code>choy patrao</code>.</p>
 
 ```
 
-namskara guru
-  nodu guru a = 10;
-  nodu guru b = "two";
-  nodu guru c = 15;
+Ae patrao
+  choy patrao a = 10;
+  choy patrao b = "two";
+  choy patrao c = 15;
   a = a + 1;
   b = 21;
   c *= 2;
-aythu guru
+Boren patrao
 ```
 
 <h3 align="center">Types</h3>
-<p align="center">Numbers and strings are like other languages. Null values can be denoted using <code>nalla</code>. <code>nija</code> and <code>sullu</code> are the boolean values.</p>
+<p align="center">Numbers and strings are like other languages. Null values can be denoted using <code>goddo</code>. <code>khoren</code> and <code>fott</code> are the boolean values.</p>
 
 ```
 
-namskara guru
-  nodu guru a = 10;
-  nodu guru b = 10 + (15*20);
-  nodu guru c = "two";
-  nodu guru d = 'ok';
-  nodu guru e = nalla;
-  nodu guru f = nija;
-  nodu guru g = sullu;
-aythu guru
+Ae patrao
+  choy patrao a = 10;
+  choy patrao b = 10 + (15*20);
+  choy patrao c = "two";
+  choy patrao d = 'ok';
+  choy patrao e = goddo;
+  choy patrao f = khoren;
+  choy patrao g = fott;
+Boren patrao
 ```
 
 <h3 align="center">Built-ins</h3>
-<p align="center">Use <code>helu guru</code> to print anything to console.</p>
+<p align="center">Use <code>Sang patrao</code> to print anything to console.</p>
 
 ```
-
-namskara guru
-  helu guru "Hello World";
-  nodu guru a = 10;
+Ae patrao
+  Sang patrao "Hello World";
+  choy patrao a = 10;
   {
-    nodu guru b = 20;
-    helu guru a + b;
+    choy patrao b = 20;
+    choy patrao a + b;
   }
-  helu guru 5, 'ok' , nija , sullu;
-aythu guru
+  Sang patrao 5, 'ok' , khoren , fott;
+Boren patrao
 ```
 
 <h3 align="center">Conditionals</h3>
-<p align="center">Gurulang supports simple if else construct , <code>guru eega</code> block will execute if condition is <code>nija</code> and <code>illandre guru</code> block will execute if condition is <code>sullu</code>.</p>
+<p align="center">Patraolang supports simple if else construct , <code>patrao jar</code> block will execute if condition is <code>khoren</code> and <code>najalear patrao</code> block will execute if condition is <code>fott</code>.</p>
 
 ```
 
-namskara guru
-  nodu guru a = 10;
-  guru eega (a < 25) aadre{
-   helu guru "a is less than 25";
-  } illandre guru {
-   helu guru "a is greater than or equal to 25";
+Ae patrao
+  Sang patrao a = 10;
+  patrao jar (a < 25) jalear{
+   Sang patrao "a is less than 25";
+  } najalear patrao {
+   Sang patrao "a is greater than or equal to 25";
   }
-aythu guru
+Boren patrao
 ```
 
 <h3 align="center">Loops</h3>
-<p align="center">Statements inside <code>guru ellivargu</code> blocks are executed as long as a specified condition evaluates to nija. If the condition becomes <code>sullu</code>, statement within the loop stops executing and control passes to the statement following the loop. Use <code>saak bidu guru</code> to break the loop and <code className="language-cpp">mundhe nodu guru</code> to continue within loop.</p>
+<p align="center">Statements inside <code>patrao joparen</code> blocks are executed as long as a specified condition evaluates to <code>khoren</code>. If the condition becomes <code>fott</code>, statement within the loop stops executing and control passes to the statement following the loop. Use <code>puro jalen patrao</code> to break the loop and <code className="language-cpp">parat ghuvya patrao</code> to continue within loop.</p>
 
 
 ```
-
-namskara guru
-  nodu guru a = 0;
-  guru ellivargu (a < 10) {
+Ae patrao
+  Sang patrao a = 0;
+  patrao joparen (a < 10) {
    a += 1;
-   guru eega (a == 5) aadre{
-    helu guru "olaginda helu guru ", a;
-    mundhe nodu guru;
+   patrao jar (a == 5) jalear{
+    Sang patrao "patraoan mhanle ", a;
+    parat ghuvya patrao;
    }
    guru eega (a == 6) aadre{
-    saak bidu guru;
+    puro jalen patrao;
    }
-   helu guru a;
+   Sang patrao a;
   }
-  helu guru "done";
-aythu guru
+  Sang patrao "done";
+Boren patrao
 ```
 
 
