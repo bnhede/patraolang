@@ -106,13 +106,13 @@ Boren patrao
 ```
 
 <h3 align="center">Conditionals</h3>
-<p align="center">Patraolang supports simple if else construct , <code>patrao jar</code> block will execute if condition is <code>khoren</code> and <code>najalear patrao</code> block will execute if condition is <code>fott</code>.</p>
+<p align="center">Patraolang supports simple if else construct , <code>patrao jenna</code> block will execute if condition is <code>khoren</code> and <code>najalear patrao</code> block will execute if condition is <code>fott</code>.</p>
 
 ```
 
 Ae patrao
   Sang patrao a = 10;
-  patrao jar (a < 25) jalear{
+  patrao jenna (a < 25) tenna{
    Sang patrao "a is less than 25";
   } najalear patrao {
    Sang patrao "a is greater than or equal to 25";
@@ -129,11 +129,11 @@ Ae patrao
   Sang patrao a = 0;
   patrao joparen (a < 10) {
    a += 1;
-   patrao jar (a == 5) jalear{
+   patrao jenna (a == 5) tenna{
     Sang patrao "patraoan mhanle ", a;
     parat ghuvya patrao;
    }
-   guru eega (a == 6) aadre{
+   patrao jenna (a == 6) tenna{
     puro jalen patrao;
    }
    Sang patrao a;
