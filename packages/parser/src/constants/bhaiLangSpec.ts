@@ -1,27 +1,27 @@
 export const TokenTypes = {
   NULL_TYPE: null,
 
-  HI_GURU_TYPE: "namskara guru",
+  HI_GURU_TYPE: "Ae patrao",
 
-  AYTHU_GURU_TYPE: "aythu guru",
+  AYTHU_GURU_TYPE: "Borem patrao",
 
-  HELU_GURU_TYPE: "helu guru",
+  HELU_GURU_TYPE: "sang patrao",
 
-  NODU_GURU_TYPE: "nodu guru",
+  NODU_GURU_TYPE: "choy patrao",
 
-  GURU_EEGA_TYPE: "guru eega",
+  GURU_EEGA_TYPE: "patrao jenna",
 
-  AADRE_TYPE: "aadre",
+  AADRE_TYPE: "tenna",
 
-  ILLANDRE_GURU_TYPE: "illandre guru",
+  ILLANDRE_GURU_TYPE: "najalear patrao",
 
-  GURU_ELLIVARGU_TYPE: "guru ellivargu",
+  GURU_ELLIVARGU_TYPE: "patrao jomeren",
 
-  SAAK_BIDU_GURU_TYPE: "saak bidu guru",
+  SAAK_BIDU_GURU_TYPE: "puro jalen patrao",
 
-  MUNDHE_NODU_GURU_TYPE: "mundhe nodu guru",
+  MUNDHE_NODU_GURU_TYPE: "parat ghuva patrao",
 
-  NALLA_TYPE: "NALLA",
+  NALLA_TYPE: "goddo",
 
   SEMI_COLON_TYPE: ";",
 
