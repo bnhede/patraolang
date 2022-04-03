@@ -1,11 +1,11 @@
 {
-  "name": "gurulang",
+  "name": "patraolang",
   "version": "0.0.7",
-  "description": "CLI for guru-lang",
+  "description": "CLI for patrao-lang",
   "source": "src/index.ts",
   "main": "bin/index.js",
   "bin": {
-    "bhailang": "./bin/index.js"
+    "patraolang": "./bin/index.js"
   },
   "files": [
     "bin"
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sheshavpd/gurulang.git"
+    "url": "git+https://github.com/bnhede/patraolang"
   },
   "keywords": [
     "programming",
     "language",
-    "bhai-lang",
-    "bl",
+    "patrao-lang",
+    "pl",
     "javascript",
     "typescript"
   ],
