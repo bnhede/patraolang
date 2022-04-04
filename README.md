@@ -26,7 +26,7 @@ npm i -g patraolang
 
 ```
 Ae patrao
-  Sang patrao "Hello Patrao";
+  sang patrao "Hello Patrao";
 Boren patrao
 
 ```
@@ -95,13 +95,13 @@ Boren patrao
 
 ```
 Ae patrao
-  Sang patrao "Hello World";
+  sang patrao "Hello World";
   choy patrao a = 10;
   {
     choy patrao b = 20;
     choy patrao a + b;
   }
-  Sang patrao 5, 'ok' , khoren , fott;
+  sang patrao 5, 'ok' , khoren , fott;
 Boren patrao
 ```
 
@@ -111,11 +111,11 @@ Boren patrao
 ```
 
 Ae patrao
-  Sang patrao a = 10;
+  choy patrao a = 10;
   patrao jenna (a < 25) tenna{
-   Sang patrao "a is less than 25";
+   sang patrao "a is less than 25";
   } najalear patrao {
-   Sang patrao "a is greater than or equal to 25";
+   sang patrao "a is greater than or equal to 25";
   }
 Boren patrao
 ```
@@ -126,19 +126,19 @@ Boren patrao
 
 ```
 Ae patrao
-  Sang patrao a = 0;
+  choy patrao a = 0;
   patrao joparen (a < 10) {
    a += 1;
    patrao jenna (a == 5) tenna{
-    Sang patrao "patraoan mhanle ", a;
+    sang patrao "patraoan mhanle ", a;
     parat ghuvya patrao;
    }
    patrao jenna (a == 6) tenna{
     puro jalen patrao;
    }
-   Sang patrao a;
+   sang patrao a;
   }
-  Sang patrao "done";
+  sang patrao "done";
 Boren patrao
 ```
 
